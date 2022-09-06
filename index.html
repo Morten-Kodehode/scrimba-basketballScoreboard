@@ -9,22 +9,34 @@
   </head>
   <body>
     <div class="container">
-      <div>
+      <div id="home">
         <h3>HOME</h3>
-        <div class="scoreBox" id="scoreBoxHome">25</div>
+        <div class="scoreBox" id="scoreBoxHome">0</div>
         <div class="scoreBtns">
-          <div class="scoreBtn" id="homeBtn1">+1</div>
-          <div class="scoreBtn" id="homeBtn2">+2</div>
-          <div class="scoreBtn" id="homeBtn3">+3</div>
+          <button class="scoreBtn" id="homeBtn1" onclick="add1Home()">
+            +1
+          </button>
+          <button class="scoreBtn" id="homeBtn2" onclick="add2Home()">
+            +2
+          </button>
+          <button class="scoreBtn" id="homeBtn3" onclick="add3Home()">
+            +3
+          </button>
         </div>
       </div>
-      <div>
+      <div id="guest">
         <h3>GUEST</h3>
-        <div class="scoreBox" id="scoreBoxGuest">34</div>
+        <div class="scoreBox" id="scoreBoxGuest">0</div>
         <div class="scoreBtns">
-          <div class="scoreBtn" id="guestBtn1">+1</div>
-          <div class="scoreBtn" id="guestBtn2">+2</div>
-          <div class="scoreBtn" id="guestBtn3">+3</div>
+          <button class="scoreBtn" id="guestBtn1" onclick="add1Guest()">
+            +1
+          </button>
+          <button class="scoreBtn" id="guestBtn2" onclick="add2Guest()">
+            +2
+          </button>
+          <button class="scoreBtn" id="guestBtn3" onclick="add3Guest()">
+            +3
+          </button>
         </div>
       </div>
     </div>
